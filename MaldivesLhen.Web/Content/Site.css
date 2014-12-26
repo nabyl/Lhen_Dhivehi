@@ -1,0 +1,159 @@
+﻿@charset "utf-8";
+
+@font-face {
+    font-family: 'Mv Eamaan XP';
+    src: url('/fonts/MvEamaanXP.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MV Faseyha';
+    src: url('/fonts/MVFaseyha.otf') format('opentype');
+}
+
+html {
+    font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
+
+body {
+    font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size:12px;
+    background-color:#f6f6f6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+     font-size: 35px;
+}
+
+h3.home-subheading{
+    font-size:20px;
+    padding:10px;
+    margin:0;
+    padding-right:0;
+}
+
+.shaairu{
+     font-size: 16pt;
+     color:#808080
+}
+
+.sadhru {
+    font-size: 14pt;
+}
+
+.lhen {
+    padding:0 10px 0 20px;
+    margin-bottom:0;
+    border-bottom:1px solid #e0e0e0;
+    background-color:#fff;
+}
+.latest-lhen {
+     padding:0 10px 5px 20px;
+    margin-bottom:0;
+    border-bottom:1px solid #e0e0e0;
+    background-color:#fff;
+}
+
+    .latest-lhen > div > h3 > a {
+        
+    }
+h3{
+    font-size:12pt;
+    margin-top:7px;
+    margin-bottom:2px;
+}
+
+ h3 a.lhen-name{
+    font-size: 15pt;
+    margin:0;
+    padding:0;
+}
+
+span.written-by{
+    color:#626060;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+.thaanaKeyboardInput{
+     font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-default .navbar-brand {
+      font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+
+.sadhru-new{
+
+}
+
+.ajz-new{
+
+}
+
+input[type=text].form-control
+
+input[type=text].lhen-name-new{
+    font-size:17pt;
+}
+
+::-webkit-input-placeholder {
+    font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
+
+:-ms-input-placeholder {  
+    font-family: "MV Faseyha","Mv Eamaan XP",'Faruma','Thaana Unicode Akeh';
+    unicode-bidi: embed;
+    direction: rtl;
+}
